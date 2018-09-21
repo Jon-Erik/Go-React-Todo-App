@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "react client side to todo-react-go app",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rm -rf dist && parcel build --public-url / index.html",
+    "watch": "parcel watch --public-url / index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "moment": "^2.22.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-moment": "^0.7.9"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.9.7"
+  }
+}
